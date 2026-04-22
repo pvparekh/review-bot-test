@@ -21,14 +21,4 @@ def read_file(filename):
     f = open(filename, 'r')
     content = f.read()
     return content
-
-#hello test1
-#hellow test2
-#third edit
-#fourth edit
-#blahh
-#yess
-#yeat
-#again
-#again2
-#thisshouldwork
+#testing
