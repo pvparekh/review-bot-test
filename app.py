@@ -21,4 +21,7 @@ def read_file(filename):
     f = open(filename, 'r')
     content = f.read()
     return content
-#plss
+#inline comments gets computed using diff with flags/suggestions by putting diff into claude api once, those comments NEED to match the correct lines but arent mapping correctly to github code. HOWEVER, the content of the inline commnets are correct and those comments go into claude for a second pass to create a summary of the issues.
+
+#First call — reads the diff, finds issues, returns JSON like [{file, position, severity, comment}] — these are the intended inline comments
+#Second call — takes that list of issues and writes a formatted markdown summar
