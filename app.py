@@ -21,6 +21,4 @@ def read_file(filename):
     f = open(filename, 'r')
     content = f.read()
     return content
-#testing
-
-#pleaseeee work
+#this has to work
